@@ -1,0 +1,8 @@
+The database parameters assumed here are
+
+Database : questionary
+Table : questions
+User : root
+Password : sakthi
+
+Change it accordingly in commonTest.php
