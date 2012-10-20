@@ -9,6 +9,7 @@
 		<h1>COMP233 Assignment-3</h1>
 	</div>
 	<?php
+		session_start();
 		include "vert-nav.php";
 	?>
 	<div id="content">
