@@ -38,10 +38,10 @@ $incre=0;
 		$ques=mysql_query("SELECT * FROM questions WHERE question_id=$key");
 		$row_ques=mysql_fetch_row($ques);
 		if ($_GET[$key]==$row_ques[5]) {
-			echo $row_ques[0] . '<br />' . "The answer is correct" . '<br />';
+			echo $row_ques[0] . '<br />' . "The answer is correct" . '<br /><br />';
 			$incre+=1;}
 		else {
-			echo $row_ques[0] . '<br />' . "The answer is wrong" . '<br />';}
+			echo $row_ques[0] . '<br />' . "The answer is wrong" . '<br /><br />';}
 	}
 	echo "<br />you got ".$incre." answers correct<br />";
 	echo "<br /><form action='$PHP_SELF'><input type='submit' value='Take the test again'></form>";
