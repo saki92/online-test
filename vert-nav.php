@@ -13,17 +13,17 @@
 			echo "<a href='home.php' style='color:black;'>Home</a><br/><br/>";
 	}
 */		
-	if (($title != "Test1") and ($title != "login") and $_SESSION['loggedin']) 	{
+	if (($title != "Test1") and ($title != "login"))/* and $_SESSION['loggedin'])*/ 	{
 		
 			echo "<a href='Test1.php' style='color:black;'>Test #1</a><br/><br/>";
 	}
 		
-	if (($title != "Test2") and ($title != "login") and $_SESSION['loggedin']) 	{
+	if (($title != "Test2") and ($title != "login"))/* and $_SESSION['loggedin'])*/ 	{
 		
 			echo "<a href='Test2.php' style='color:black;'>Test #2</a><br/><br/>";
 	}
 	
-	if (($title != "Test3") and ($title != "login") and $_SESSION['loggedin']) 	{
+	if (($title != "Test3") and ($title != "login"))/* and $_SESSION['loggedin'])*/ 	{
 		
 			echo "<a href='Test3.php' style='color:black;'>Test #3</a><br/><br/>";
 	}

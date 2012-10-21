@@ -2,5 +2,5 @@
 	// logout code
 	session_start();
 	$_SESSION['loggedin'] = False;
-	header("Location: login.php");
+	header("Location: home.php");
 ?>
